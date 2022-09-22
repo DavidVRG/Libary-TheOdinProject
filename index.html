@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Libary</title>
+</head>
+<body>
+    
+    <div class="container">
+        <header>
+            <div class="logo"><img src="img/book.svg" alt="book"></div>
+            <h2>Hi, this is your Book Libary</h2>
+        </header>
+        <div class="main-content">
+            <button type="button" class="btn addBook">+ Add book</button>
+            <form class="addBookUI">
+                <input type="text" name="author" id="author" required placeholder="Author">
+                <input type="text" name="title" id="title" required placeholder="Title">
+                <input type="number" name="pages" id="pages" required placeholder="Number of pages" min="1">
+                <button type="submit" class="btn submitBook">Submit</button>
+            </form>
+            <div class="cards">
+            </div>
+        </div>
+
+        <footer>
+            <p>Copyright @ DavidVRG  -- The Odin Project 2022</p>
+        </footer>
+    </div>
+    <script src="script/app.js"></script>
+</body>
+</html>
